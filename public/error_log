@@ -1,0 +1,51 @@
+[21-Jun-2025 21:49:52 Asia/Jakarta] PHP Fatal error:  During class fetch: Uncaught ErrorException: include(/home/trackin5/public_html/vendor/archtechx/enums/src/InvokableCases.php): Failed to open stream: No such file or directory in /home/trackin5/public_html/vendor/composer/ClassLoader.php:576
+Stack trace:
+#0 /home/trackin5/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/trackin5/public_html/vendor/composer/ClassLoader.php(576): Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#2 /home/trackin5/public_html/vendor/composer/ClassLoader.php(576): include('/home/trackin5/...')
+#3 /home/trackin5/public_html/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}()
+#4 /home/trackin5/public_html/vendor/laravel-lang/config/src/Enums/Name.php(13): Composer\Autoload\ClassLoader->loadClass()
+#5 /home/trackin5/public_html/vendor/composer/ClassLoader.php(576): include('/home/trackin5/...')
+#6 /home/trackin5/public_html/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}()
+#7 /home/trackin5/public_html/vendor/laravel-lang/config/src/ServiceProvider.php(33): Composer\Autoload\ClassLoader->loadClass()
+#8 /home/trackin5/public_html/vendor/laravel-lang/config/src/ServiceProvider.php(14): LaravelLang\Config\ServiceProvider->registerConfig()
+#9 /home/trackin5/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(817): LaravelLang\Config\ServiceProvider->register()
+#10 /home/trackin5/public_html/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php(75): Illuminate\Foundation\Application->register()
+#11 /home/trackin5/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(794): Illuminate\Foundation\ProviderRepository->load()
+#12 /home/trackin5/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterProviders.php(17): Illuminate\Foundation\Application->registerConfiguredProviders()
+#13 /home/trackin5/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(286): Illuminate\Foundation\Bootstrap\RegisterProviders->bootstrap()
+#14 /home/trackin5/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(186): Illuminate\Foundation\Application->bootstrapWith()
+#15 /home/trackin5/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(170): Illuminate\Foundation\Http\Kernel->bootstrap()
+#16 /home/trackin5/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(144): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#17 /home/trackin5/public_html/public/index.php(51): Illuminate\Foundation\Http\Kernel->handle()
+#18 {main} in /home/trackin5/public_html/vendor/laravel-lang/config/src/Enums/Name.php on line 13
+[21-Jun-2025 14:49:54 UTC] PHP Warning:  include(/home/trackin5/public_html/vendor/phpunit/phpunit/src/Runner/Version.php): Failed to open stream: No such file or directory in /home/trackin5/public_html/vendor/composer/ClassLoader.php on line 576
+[21-Jun-2025 14:49:54 UTC] PHP Warning:  include(): Failed opening '/home/trackin5/public_html/vendor/composer/../phpunit/phpunit/src/Runner/Version.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trackin5/public_html/vendor/composer/ClassLoader.php on line 576
+[21-Jun-2025 14:49:54 UTC] PHP Warning:  require(/home/trackin5/public_html/vendor/phpunit/phpunit/src/Framework/Assert/Functions.php): Failed to open stream: No such file or directory in /home/trackin5/public_html/vendor/composer/autoload_real.php on line 41
+[21-Jun-2025 14:49:54 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/trackin5/public_html/vendor/composer/../phpunit/phpunit/src/Framework/Assert/Functions.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trackin5/public_html/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/trackin5/public_html/vendor/composer/autoload_real.php(45): {closure}()
+#1 /home/trackin5/public_html/vendor/autoload.php(25): ComposerAutoloaderInit966c2f0afd513cafe76068202f146f23::getLoader()
+#2 /home/trackin5/public_html/public/index.php(34): require('/home/trackin5/...')
+#3 {main}
+  thrown in /home/trackin5/public_html/vendor/composer/autoload_real.php on line 41
+[21-Jun-2025 14:49:54 UTC] PHP Warning:  include(/home/trackin5/public_html/vendor/phpunit/phpunit/src/Runner/Version.php): Failed to open stream: No such file or directory in /home/trackin5/public_html/vendor/composer/ClassLoader.php on line 576
+[21-Jun-2025 14:49:54 UTC] PHP Warning:  include(): Failed opening '/home/trackin5/public_html/vendor/composer/../phpunit/phpunit/src/Runner/Version.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trackin5/public_html/vendor/composer/ClassLoader.php on line 576
+[21-Jun-2025 14:49:54 UTC] PHP Warning:  require(/home/trackin5/public_html/vendor/phpunit/phpunit/src/Framework/Assert/Functions.php): Failed to open stream: No such file or directory in /home/trackin5/public_html/vendor/composer/autoload_real.php on line 41
+[21-Jun-2025 14:49:54 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/trackin5/public_html/vendor/composer/../phpunit/phpunit/src/Framework/Assert/Functions.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trackin5/public_html/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/trackin5/public_html/vendor/composer/autoload_real.php(45): {closure}()
+#1 /home/trackin5/public_html/vendor/autoload.php(25): ComposerAutoloaderInit966c2f0afd513cafe76068202f146f23::getLoader()
+#2 /home/trackin5/public_html/public/index.php(34): require('/home/trackin5/...')
+#3 {main}
+  thrown in /home/trackin5/public_html/vendor/composer/autoload_real.php on line 41
+[21-Jun-2025 14:49:57 UTC] PHP Warning:  include(/home/trackin5/public_html/vendor/phpunit/phpunit/src/Runner/Version.php): Failed to open stream: No such file or directory in /home/trackin5/public_html/vendor/composer/ClassLoader.php on line 576
+[21-Jun-2025 14:49:57 UTC] PHP Warning:  include(): Failed opening '/home/trackin5/public_html/vendor/composer/../phpunit/phpunit/src/Runner/Version.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trackin5/public_html/vendor/composer/ClassLoader.php on line 576
+[21-Jun-2025 14:49:57 UTC] PHP Warning:  require(/home/trackin5/public_html/vendor/phpunit/phpunit/src/Framework/Assert/Functions.php): Failed to open stream: No such file or directory in /home/trackin5/public_html/vendor/composer/autoload_real.php on line 41
+[21-Jun-2025 14:49:57 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/trackin5/public_html/vendor/composer/../phpunit/phpunit/src/Framework/Assert/Functions.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trackin5/public_html/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/trackin5/public_html/vendor/composer/autoload_real.php(45): {closure}()
+#1 /home/trackin5/public_html/vendor/autoload.php(25): ComposerAutoloaderInit966c2f0afd513cafe76068202f146f23::getLoader()
+#2 /home/trackin5/public_html/public/index.php(34): require('/home/trackin5/...')
+#3 {main}
+  thrown in /home/trackin5/public_html/vendor/composer/autoload_real.php on line 41

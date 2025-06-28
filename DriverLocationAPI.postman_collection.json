@@ -1,0 +1,43 @@
+
+{
+    "info": {
+        "name": "Driver Location API",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+        "_postman_id": "driver-location-20250530091706"
+    },
+    "item": [
+        {
+            "name": "Update Driver Location",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\n    \"driver_id\": 5,\n    \"latitude\": -6.24573,\n    \"longitude\": 106.80079\n}"
+                },
+                "url": {
+                    "raw": "http://localhost/api/driver/update-location",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "path": [
+                        "api",
+                        "driver",
+                        "update-location"
+                    ]
+                }
+            },
+            "response": []
+        }
+    ]
+}
